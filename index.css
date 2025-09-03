@@ -103,3 +103,44 @@ nav a:hover {
   font-weight: 500;
   font-style: normal;
 }
+
+/* === projects.html design === */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+    padding: 40px 20px;
+    justify-items: center;
+}
+
+.projects-card {
+    background: #1e1a1a;
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    width: 100%;
+    max-width: 250px;
+    padding-bottom: 15px;
+}
+
+.projects-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-bottom: 3px solid #cc3399;
+}
+
+
+.projects-card h3 {
+    margin-top: 12px;
+    font-size: 20px;
+    font-family: "Lexend", sans-serif;
+    color: white;
+}
+
+.projects-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+}
+
