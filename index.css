@@ -180,20 +180,27 @@ nav a:hover {
 }
 
 @media (max-width: 600px) {
+  body {
+    overflow-x: hidden;
+  }
+  .container {
+    padding: 0 8px;
+  }
   nav {
     flex-direction: column;
     align-items: stretch;
-    padding: 8px;
+    padding: 8px 0;
   }
   .ltp, .icons {
     justify-content: center;
-    padding: 8px 0;
+    padding: 0;
+    gap: 8px;
   }
   .ltp {
     margin-bottom: 8px;
   }
   nav .icons svg {
-    height: 36px;
-    width: 36px;
+    height: 32px;
+    width: 32px;
   }
 }
