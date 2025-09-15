@@ -178,3 +178,22 @@ nav a:hover {
 .centered-main {
     text-align: center;
 }
+
+@media (max-width: 600px) {
+  nav {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 8px;
+  }
+  .ltp, .icons {
+    justify-content: center;
+    padding: 8px 0;
+  }
+  .ltp {
+    margin-bottom: 8px;
+  }
+  nav .icons svg {
+    height: 36px;
+    width: 36px;
+  }
+}
