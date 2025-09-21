@@ -45,7 +45,7 @@ header img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    border: 5px solid #c6a0f6;
+    border: 5px solid #eed49f;
 }
 
 .center {
@@ -54,7 +54,7 @@ header img {
 
 h1 {
     font-size: 40px;
-    background: linear-gradient(to right, #c6a0f6 , #f5bde6);
+    background: linear-gradient(to right, #eed49f, #f4dbd6);
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
@@ -102,7 +102,7 @@ footer p {
 }
 
 nav a:hover {
-    color: #c6a0f6;
+    color: #eed49f;
 }
 
 .cal-sans-regular {
