@@ -54,7 +54,8 @@ header img {
 
 h1 {
     font-size: 40px;
-    background: linear-gradient(to right, #eed49f, #f4dbd6);
+    background: #EED49F;
+    background: linear-gradient(184deg, rgba(238, 212, 159, 1) 50%, rgba(244, 219, 214, 1) 100%);
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
